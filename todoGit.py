@@ -112,7 +112,7 @@ def showSearchTodoByEvent(formattedData):
     prints todo's according to input events
     """
     userEvent = input('Enter the Event: ')
-    print("Events on the todo's are: ")
+    print("Todo on that Event are: ")
     cnt = 0
     for i in range(len(formattedData)):
         if formattedData[i]["event"].strip().lower()==userEvent.lower():
